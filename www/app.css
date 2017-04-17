@@ -1,0 +1,159 @@
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #0697e6;
+}
+
+footer {
+	margin-top: 20px;
+	font-size: 80%;
+	color: grey;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a, footer a:visited, footer a:hover, footer a:active {
+	color: #67a8cc;
+}
+
+hr {
+	width: 200px;
+	color: #eee;
+	height: 1px;
+	margin: 2px auto;
+}
+
+a:hover, a:active, a:hover > span, a:active > span {
+	text-decoration: underline;
+}
+
+.hidden {
+	display: none;
+}
+
+.checklist {
+	float: left;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.content {
+	max-width: 990px;
+	margin: 20px auto;
+}
+
+body.no-file .counter,
+body.no-file .where-to-go {
+	display: none;
+}
+
+.checklist .icon {
+	float: left;
+	width: 26px;
+	height: 26px;
+}
+
+.checklist .name {
+	line-height: 26px;
+	font-size: 90%;
+}
+
+.checklist .icon img {
+	height: 20px;
+	width: 20px;
+	padding: 3px 5px 3px 1px;
+}
+
+.item-undefined {
+	color: inherit;
+}
+
+.item-completed {
+	color: green;
+}
+
+.item-todo {
+	color: red;
+}
+
+.rules-heading {
+	margin-bottom: 3px;
+}
+
+ul.rules {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 0;
+}
+
+ul.rules li {
+	line-height: 26px;
+	padding-left: 30px;
+	margin-bottom: 5px;
+}
+
+li.activity-dig {
+	background: url(/images/Hoe.png) left 1px no-repeat;
+}
+
+li.activity-kill {
+	background: url(/images/Kill.png) left 1px no-repeat;
+}
+
+li.activity-fish {
+	background: url(/images/Treasure_Chest.png) left 1px no-repeat;
+}
+
+li.activity-animal {
+	background: url(/images/Rancher.png) left 1px no-repeat;
+}
+
+li.activity-pan {
+	background: url(/images/Copper_Pan.png) left 1px no-repeat;
+}
+
+li.activity-geode {
+	background: url(/images/Blacksmith.png) left 1px no-repeat;
+}
+
+li.activity-mine {
+	background: url(/images/Pickaxe.png) left 1px no-repeat;
+}
+
+li.activity-garbage {
+	background: url(/images/Garbage_Can.png) left 1px no-repeat;
+}
+
+li.activity-forage {
+	background: url(/images/Forage.png) left 1px no-repeat;
+}
+
+li.activity-spots {
+	background: url(/images/Artifact_Spot.png) left 1px no-repeat;
+}
+
+span.enemy, span.animal, span.geode, span.node {
+	padding-left: 26px;
+	line-height: 26px;
+	display: inline-block;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+span.animal {
+	padding-left: 32px;
+}

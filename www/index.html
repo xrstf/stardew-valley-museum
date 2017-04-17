@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stardew Valley Museum Guide</title>
+	<link href="/favicon.png" rel="shortcut icon">
+	<link rel="stylesheet" href="/tipped.css">
+	<link rel="stylesheet" href="/app.css">
+</head>
+<body class="no-file">
+	<div class="content">
+		<h1>Stardew Valley Museum Guide</h1>
+
+		<h2>Select Your Savestate</h2>
+		<div class="file-input">
+			<input type="file" name="file" id="file-select">
+		</div>
+
+		<h2>Complete Collection<span class="counter"> (<span id="completed-items-count">0</span> / 95)</span></h2>
+		<div class="checklist-container clearfix">
+			<ul class="checklist" id="col0"></ul>
+			<ul class="checklist" id="col1"></ul>
+			<ul class="checklist" id="col2"></ul>
+			<ul class="checklist" id="col3"></ul>
+			<ul class="checklist" id="col4"></ul>
+		</div>
+
+		<footer>
+			<hr>
+			<p>made in ⚓ Hamburg by <a href="https://xrstf.de" target="_blank">@xrstf</a></p>
+		</footer>
+	</div>
+
+	<div id="tooltip-template" class="hidden">
+		<div style="min-width:300px;padding:5px">
+			<div class="clearfix">
+				<div class="icon" style="float:left;height:34px;width:34px"><img src="#" style="width:28px;height:28px;padding:3px"></div>
+				<div class="title" style="line-height:34px;font-size:20px"></div>
+			</div>
+
+			<p class="rules-heading">This item can be found by&hellip;</p>
+			<ul class="rules">
+			</ul>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/tipped.js"></script>
+	<script type="text/javascript" src="/database.js"></script>
+	<script type="text/javascript" src="/app.js"></script>
+</body>
+</html>
